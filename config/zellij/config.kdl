@@ -233,6 +233,7 @@ keybinds clear-defaults=true {
         bind "space" { NextSwapLayout; }
         bind "-" { NewPane "down"; SwitchToMode "normal"; }
         bind "|" { NewPane "right"; SwitchToMode "normal"; }
+        bind "\\" { NewPane "right"; SwitchToMode "normal"; }
         bind "," { SwitchToMode "renametab"; }
         bind "[" { SwitchToMode "scroll"; }
         bind "Ctrl b" { Write 2; SwitchToMode "normal"; }
