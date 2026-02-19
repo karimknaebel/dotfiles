@@ -48,5 +48,9 @@
     navigate = true    # use n and N to move between diff sections
     side-by-side = true
 
+[merge]
+	# https://dandavison.github.io/delta/merge-conflicts.html
+    conflictStyle = zdiff3
+
 [include]
   path = config.local
