@@ -55,7 +55,7 @@
         "starship starship"
         "ajeetdsouza zoxide"
         "junegunn fzf"
-        "atuinsh atuin"
+        "atuinsh atuin --matching-regex=atuin-(aarch64|x86_64).*.tar.gz"
         "jdx mise"
         "jdx usage"
         "astral-sh uv"
