@@ -46,7 +46,8 @@ set belloff=all
 " GUI {{{
 
 " set guifont=JetBrains\ Mono\ Symbols:h13
-set guifont=MonaspaceNeon-Regular:h13
+" set guifont=MonaspaceNeon-Regular:h13
+set guifont=TX-02-Variable:h13
 
 " }}}
 
