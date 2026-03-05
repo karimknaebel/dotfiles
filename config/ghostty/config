@@ -2,9 +2,9 @@ font-family = TX-02-Variable
 font-family = nonicons
 
 # --- for TX-02 ---
-# font-feature = +ss04
-# font-feature = -calt
+font-feature = -calt
 font-feature = +ss02
+font-feature = +ss04
 font-feature = +ss05
 
 theme = GitHub Dark Default
