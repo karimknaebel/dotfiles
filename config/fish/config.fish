@@ -18,6 +18,7 @@ if status is-interactive
     type -q xdg-open; and type -q setsid; and alias open="setsid xdg-open"
     type -q lazygit; and alias lzg lazygit
     type -q eget; and abbr egeti 'eget --to=~/.local/bin'
+    type -q gdown; and abbr gdown 'gdown --fuzzy'
 
     type -q zoxide; and zoxide init fish | source
     type -q starship; and starship init fish | source
