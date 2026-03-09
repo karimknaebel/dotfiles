@@ -14,4 +14,6 @@ macos-option-as-alt = right
 
 keybind = global:cmd+shift+.=toggle_quick_terminal
 
+shell-integration-features = ssh-terminfo,ssh-env
+
 config-file = ?config.local
