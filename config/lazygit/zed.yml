@@ -1,0 +1,4 @@
+gui:
+  border: single
+os:
+  editPreset: "zed"
