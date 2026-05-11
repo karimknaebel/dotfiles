@@ -13,6 +13,7 @@ mouse-hide-while-typing = true
 macos-option-as-alt = right
 
 keybind = global:cmd+shift+.=toggle_quick_terminal
+keybind = shift+escape=toggle_split_zoom
 
 shell-integration-features = ssh-terminfo,ssh-env
 
