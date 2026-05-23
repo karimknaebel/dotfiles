@@ -4,6 +4,8 @@
 
 [alias]
 	ignore = "!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi"
+	hdiff = -c core.pager=\"hunk pager\" diff
+	hshow = -c core.pager=\"hunk pager\" show
 
 [user]
 	name = Karim Knaebel
