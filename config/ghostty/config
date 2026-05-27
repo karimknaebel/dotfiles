@@ -10,7 +10,7 @@ font-feature = +ss05
 theme = GitHub Dark Default
 mouse-hide-while-typing = true
 
-macos-option-as-alt = right
+macos-option-as-alt = true
 
 keybind = global:cmd+shift+.=toggle_quick_terminal
 keybind = shift+escape=toggle_split_zoom
