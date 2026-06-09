@@ -12,6 +12,9 @@ mouse-hide-while-typing = true
 
 macos-option-as-alt = true
 
+tab-inherit-working-directory = false
+window-inherit-working-directory = false
+
 keybind = global:cmd+shift+.=toggle_quick_terminal
 keybind = shift+escape=toggle_split_zoom
 
