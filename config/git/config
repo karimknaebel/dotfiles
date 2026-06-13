@@ -41,10 +41,15 @@
 	concurrenttransfers = 3
 
 [filter "lfs"]
+	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
-	required = true
+
+[lfs "customtransfer.xet"]
+	path = git-xet
+	args = transfer
+	concurrent = true
 
 [interactive]
     diffFilter = delta --color-only
