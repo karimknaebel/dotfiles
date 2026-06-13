@@ -37,6 +37,9 @@
 	helper = 
 	helper = !gh auth git-credential
 
+[lfs]
+	concurrenttransfers = 3
+
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
@@ -56,7 +59,3 @@
 
 [include]
   path = config.local
-[lfs "customtransfer.xet"]
-	path = git-xet
-	args = transfer
-	concurrent = true
