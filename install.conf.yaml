@@ -10,6 +10,9 @@
       glob: true
       path: home/*
       prefix: '.'
+      exclude: [home/codex]
+    ~/.codex/AGENTS.md:
+      path: home/codex/AGENTS.md
     ~/.config/:
       glob: true
       path: config/*
