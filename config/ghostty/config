@@ -4,7 +4,7 @@ font-family = nonicons
 # --- for TX-02 ---
 font-feature = -calt
 font-feature = +ss02
-font-feature = +ss04
+#font-feature = +ss04
 font-feature = +ss05
 
 theme = GitHub Dark Default
@@ -12,7 +12,7 @@ mouse-hide-while-typing = true
 
 macos-option-as-alt = true
 
-tab-inherit-working-directory = false
+tab-inherit-working-directory = true
 window-inherit-working-directory = false
 
 keybind = global:cmd+shift+.=toggle_quick_terminal
