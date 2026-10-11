@@ -41,6 +41,7 @@
         "dandavison delta"
         "Wilfred difftastic"
         "jesseduffield lazygit"
+        "lusingander serie"
         "starship starship"
         "ajeetdsouza zoxide"
         "atuinsh atuin --matching-regex=atuin-(aarch64|x86_64).*musl.*.tar.gz"
@@ -117,6 +118,10 @@
 - link:
     ~/.local/bin/lazygit:
       path: ~/.local/share/packages/lazygit/lazygit
+
+- link:
+    ~/.local/bin/serie:
+      path: ~/.local/share/packages/serie/serie
 
 - link:
     ~/.local/bin/starship:
