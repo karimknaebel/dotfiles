@@ -1,0 +1,11 @@
+inherits = "github_light"
+
+"variable.other.member" = ""  # json keys, and self.member
+
+"markup.list" = "scale.red.5"
+"markup.quote" = "scale.blue.8"
+"markup.raw" = "scale.blue.8"
+
+"ui.text" = { fg = "fg.default" }
+"ui.text.focus" = { fg = "fg.onEmphasis", bg = "canvas.overlay" }
+

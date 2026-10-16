@@ -1,4 +1,6 @@
-theme = "github_dark_fixed"
+[theme]
+dark = "github_dark_fixed"
+light = "github_light_fixed"
 
 [editor]
 true-color = true
