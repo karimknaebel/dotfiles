@@ -46,7 +46,8 @@
     diffFilter = delta --color-only
 
 [delta]
-    navigate = true    # use n and N to move between diff sections
+    navigate = true # use n and N to move between diff sections
+    syntax-theme = base16
     side-by-side = true
 
 [merge]

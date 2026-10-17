@@ -1,4 +1,4 @@
 git:
   diffRenderers:
     - colorArg: always
-      command: delta --dark --paging=never --no-gitconfig
+      command: delta --no-gitconfig --syntax-theme=base16 --{{colorScheme}} --paging=never
