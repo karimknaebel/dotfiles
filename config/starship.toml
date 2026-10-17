@@ -36,3 +36,7 @@ style = "bold purple"
 detect_env_vars = ['CLOUDSDK_CONFIG']
 
 [env_var.CUDA_HOME]
+
+[env_var.STARSHIP_PRIVATE_MODE]
+format = '[🎭 $env_value]($style) '
+style = "bold yellow"
