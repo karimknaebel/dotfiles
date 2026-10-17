@@ -26,6 +26,7 @@ __git.create_abbr gclean! git clean -dfx
 __git.create_abbr gclean!! "git reset --hard; and git clean -dfx"
 __git.create_abbr gcount git shortlog -sn
 __git.create_abbr gd git diff
+__git.create_abbr gdd git ddiff
 __git.create_abbr gdto git difftool
 __git.create_abbr gignore git update-index --assume-unchanged
 __git.create_abbr gf git fetch
