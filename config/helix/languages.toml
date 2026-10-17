@@ -1,13 +1,11 @@
-[language-server.ty.config.ty.experimental]
-rename = true
-
 [language-server.zk]
 command = "zk"
 args = ["lsp"]
 
 [[language]]
 name = "markdown"
-language-servers = ["zk"]
+# language-servers = ["zk"]
+language-servers = ["markdown-oxide"]
 
 [language-server.tinymist]
 config = { exportPdf = "onType", formatterMode = "typstyle" }
